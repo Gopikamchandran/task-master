@@ -23,7 +23,8 @@
                   // output data of each row
                   $row = mysqli_fetch_assoc($res);
             
-                 if($email==$row['email'])
+                if($email==$row['email'])
+                 // if($email = isset($row['email']) ? count($row['email']) : 0)
                  {
                       // echo "Email already exists";
                       echo' <script>alert

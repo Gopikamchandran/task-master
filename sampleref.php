@@ -1,7 +1,6 @@
 
 <?php
 session_start();
-if(!isset($_SESSION['user'])){
 ?><!DOCTYPE html>
 <html><center>
 <title>Login</title>
@@ -91,8 +90,3 @@ if(!isset($_SESSION['user'])){
 
 </body>
 </html>
-<?php
-}
-else{
-	 header("Location: time.php");
-}?>
