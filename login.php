@@ -4,6 +4,9 @@ session_start();
 require_once('db.php');
  
  
+
+
+ // test comment
 $email=$_POST['email'];
 $password=$_POST['password'];
 $email= stripslashes($email);
