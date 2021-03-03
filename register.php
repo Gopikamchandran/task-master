@@ -13,7 +13,7 @@
         $salt="zennode";
         $password=sha1($password.$salt);
 // echo "$password";
-     //return false;
+     
 
         $sql="SELECT * from register where (email='$email');";
             $res=mysqli_query($con,$sql);
